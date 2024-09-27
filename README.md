@@ -1,23 +1,29 @@
-Matebook 14 2019 OpenCore EFI OC101 for Sequoia15.0 only
-!!! I just collect some proper files from the internet, and i won't be responsible for any damage to ur device. !!!
-For study and communication purposes only.
+# Matebook 14 2019 OpenCore EFI (OC 1.0.1) for macOS Sequoia 15.0
 
-i7 8565U  
-Intel Wireless AC9560
-DDR3L 8G
-UHD620@MX250
-WD SN720 512G
-Realtek ALC256
-2160*1440
+> ⚠️ **Disclaimer:**  
+> I just collected some proper files from the internet, and I won't be responsible for any damage to your device.  
+> For study and communication purposes only.
 
-** MacOS Sequoia 15.0 **    
-        
-Thanks to Apple's macOS <a href="https://github.com/acidanthera">Acidanthera</a>'s <a href="https://github.com/acidanthera/OpenCorePkg">OpenCore</a>    
+## Hardware Specifications
 
-It is mainly based on <a href="https://github.com/andrewlsa/Matebook14-2019-Hackintosh">andrewlsa's work</a>.
-And the intel bluetooth works on the file from <a href="https://github.com/OpenIntelWireless/IntelBluetoothFirmware/issues/486#issuecomment-2356055645">ecklf's work</a>.
-The wireless nerwork only works on itlwm.kext + HeliPort now.
-Plz don't use the Airportitlwm.kext from anywhere.
-Thanks to <a href="https://github.com/zxystd">@zxystd</a>.
+- **CPU:** Intel i7-8565U  
+- **Wi-Fi:** Intel Wireless AC9560  
+- **RAM:** DDR3L 8GB  
+- **Graphics:** Intel UHD620 + NVIDIA MX250  
+- **Storage:** WD SN720 512GB  
+- **Audio:** Realtek ALC256  
+- **Display:** 2160x1440  
 
-# Matebook-14-2019-Hackintosh-Sequoia15.0
+## macOS Version
+
+**macOS Sequoia 15.0**
+
+## Credits and Resources
+
+- Thanks to [Acidanthera](https://github.com/acidanthera) for [OpenCore](https://github.com/acidanthera/OpenCorePkg).
+- This EFI is mainly based on [andrewlsa's work](https://github.com/andrewlsa/Matebook14-2019-Hackintosh).
+- Intel Bluetooth functionality is supported thanks to [ecklf's contribution](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/issues/486#issuecomment-2356055645).
+- Wireless networking is currently functional only with `itlwm.kext` and HeliPort. **Do not use** `Airportitlwm.kext` from any other source.  
+  Special thanks to [@zxystd](https://github.com/zxystd) for this.
+
+## Repository: Matebook-14-2019-Hackintosh-Sequoia15.0
