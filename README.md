@@ -14,6 +14,11 @@
 - **Audio:** Realtek ALC256  
 - **Display:** 2160x1440  
 
+## What is not work
+- **Camera**  
+- **Fingerprint**  
+- **NVIDIA MX250**  
+
 ## macOS Version
 
 **macOS Sequoia 15.0**
